@@ -104,8 +104,8 @@ getJS -h
 ## ▶️ Usage
 
 ```bash
-chmod +x recon.sh
-./recon.sh
+chmod +x ReconForge.sh
+./ReconForge.sh
 ```
 
 Input:
