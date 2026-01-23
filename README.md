@@ -59,10 +59,12 @@ sudo apt install -y git curl wget jq python3 python3-pip golang
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 go install github.com/hakluke/hakrawler@latest
 go install github.com/jaeles-project/gospider@latest
+go install -v github.com/edoardottt/cariddi/cmd/cariddi@latest
 go install github.com/tomnomnom/waybackurls@latest
-go install github.com/tomnomnom/gau/v2/cmd/gau@latest
-go install github.com/projectdiscovery/subjs@latest
-go install github.com/1ndianl33t/urlfinder@latest
+go install github.com/lc/gau/v2/cmd/gau@latest
+go install github.com/tomnomnom/gf@latest
+go install github.com/projectdiscovery/urlfinder/cmd/urlfinder@latest
+go install github.com/lc/subjs@latest
 ```
 
 Add Go binaries to PATH:
@@ -90,6 +92,7 @@ pip3 install getJS
 katana -h
 hakrawler -h
 gospider -h
+cariddi -h
 waybackurls
 gau -h
 subjs -h
