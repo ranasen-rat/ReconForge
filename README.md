@@ -65,6 +65,7 @@ go install github.com/lc/gau/v2/cmd/gau@latest
 go install github.com/tomnomnom/gf@latest
 go install github.com/projectdiscovery/urlfinder/cmd/urlfinder@latest
 go install github.com/lc/subjs@latest
+go install github.com/003random/getJS@latest
 ```
 
 Add Go binaries to PATH:
