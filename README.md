@@ -82,7 +82,6 @@ source ~/.bashrc
 ```bash
 pip3 install waymore
 pip3 install paramspider
-pip3 install getJS
 ```
 
 ---
