@@ -68,11 +68,11 @@ go install github.com/lc/subjs@latest
 go install github.com/003random/getJS@latest
 ```
 
-Add Go binaries to PATH:
+Add Go tools copy our bin PATH:
 
 ```bash
-echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
-source ~/.bashrc
+sudo cd ~/go/bin
+sudo cp * /usr/bin
 ```
 
 ---
