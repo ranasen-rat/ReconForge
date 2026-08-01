@@ -48,3 +48,5 @@ This script aggregates results from several industry‑standard tools and produc
 ```bash
 sudo apt update
 sudo apt install -y git curl wget jq python3 python3-pip golang
+
+## 📦 Go‑Based Tools
